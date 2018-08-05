@@ -1,2 +1,5 @@
 # yify-subtitle-downloader
-Download subtitle from yifysubtitles.com
+
+keep this pechiyify.py in PATH.
+
+run in cmd: python peciyify.py titanic , subtitle will be download in the cmd current working directory
