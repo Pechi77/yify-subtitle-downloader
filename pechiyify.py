@@ -84,7 +84,7 @@ def get_subtitle(url):
 
 
     #m = re.search(r'\[Download subtitle\]\((.*\n.*)\)', text)
-    m=re.search(r'http://www.yifysubtitles.com/subtitle/.+zip',text, flags=re.DOTALL)
+    m=re.search(r'https://www.yifysubtitles.com/subtitle/.+zip',text, flags=re.DOTALL)
     if m:
         
         # remove all newline
